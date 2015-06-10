@@ -4,7 +4,7 @@
  *
  * Displays all of the <head> section and everything up till <div id="content">
  *
- * @package _s
+ * @package Bux
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -31,10 +31,10 @@
 		</div>
 
 		<nav id="site-navigation" class="main-navigation navbar navbar-default" role="navigation">
-			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', '_s' ); ?></a>
+			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'bux' ); ?></a>
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
-                    <span class="sr-only"><?php _e('Toggle navigation', '_s'); ?></span>
+                    <span class="sr-only"><?php _e('Toggle navigation', 'bux'); ?></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
