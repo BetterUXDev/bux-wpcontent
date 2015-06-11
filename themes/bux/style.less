@@ -1,18 +1,15 @@
 /*
-Theme Name: _strap
-Theme URI: https://github.com/ptbello/_strap
-Author: Piero Bellomo
-Author URI: https://github.com/ptbello
-Description: _strap is a WordPress theme with the goal of integrating Twitter's bootstrap into Automattic's _s with the smallest possible changeset
-Version: 3.0
+Theme Name: Bux
+Theme URI:
+Author:
+Author URI:
+Description: TODO
+Version: 0.1
 License: GNU General Public License
 License URI: license.txt
-Tags: bootstrap, _s
+Tags: bootstrap, _s, _strap
 
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-Respect to _s https://github.com/Automattic/_s
-and Bootstrap https://github.com/twbs/bootstrap
+Based on _strap [https://github.com/ptbello/_strap], a mashup of _s [https://github.com/Automattic/_s] and Bootstrap [https://github.com/twitter/bootstrap]
 */
 
 /*!
@@ -21,9 +18,12 @@ and Bootstrap https://github.com/twbs/bootstrap
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+
 // Core variables and mixins
 @import "bootstrap/less/variables.less";
 @import "bootstrap/less/mixins.less";
+@import url(http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css);
+
 
 // Reset and dependencies
 @import "bootstrap/less/normalize.less";
@@ -80,3 +80,5 @@ and Bootstrap https://github.com/twbs/bootstrap
 
 // YOUR CUSTOM STYLES
 // ------------------
+
+@import "bootstrap/less/custom";
