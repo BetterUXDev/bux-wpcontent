@@ -1,0 +1,32 @@
+.container-fluid {
+	padding: 0px;
+}
+
+section {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.hero {
+	padding: 0px;
+}
+
+.hero div {
+	padding: 0px;
+}
+
+.team-photos img {
+	min-width: 100%;
+}
+
+.team-photos li {
+	padding: 0px;
+}
+
+ul {
+	padding: 0px;
+}
+
+ul li {
+	display: block;
+}
