@@ -1,0 +1,321 @@
+<!-- 
+	Project: BetterUX
+	Page: Homepage
+	Version: 1.0
+	Author: Anna S.
+
+	Notes: Simple HTML layout for the BetterUX homepage
+	with general external styles
+
+	To-do: 
+	-	Remove extra external styles (e.g background-color)
+	- 	Move general styles to the css file
+	-	Make wordpress template
+	-	Stylize as needed
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	
+	<title>Better UX</title>
+
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<style>
+		html {
+		  box-sizing: border-box;
+		}
+		*, *:before, *:after {
+		  box-sizing: inherit;
+		}
+
+		/* delete .row when styling, used only for coloring the sections (header, slider and etc.) */
+		.row {
+			background-color: #bbc0cc; 
+			margin-bottom: 10px;
+		}
+
+		.slider {
+			text-align: center;
+		}
+
+		/*===================================
+		=============== HEADER	============= */
+		.menu li {
+			list-style-type: none;
+			display: inline-block;
+		}
+		
+		.header .menu {
+			text-align: right;
+		}
+
+		/*===================================
+		=============== MAIN ================ */
+
+		.tile .imageholder {
+			width: 257px;
+			height: 274px;
+			margin: 0 auto;
+			position: relative;
+			background: url(https://d13yacurqjgara.cloudfront.net/users/508855/screenshots/2142518/fixie_1x.png) no-repeat;
+		}
+
+		.tile .hover-info {
+			height: 217px;
+			padding: 10px;
+			display: none;
+			text-align: center;
+		}
+
+		.tile .overlay-caption {
+			width: 257px;
+			background-color: #586077; /*delete the style*/
+			height: 57px;
+			position: absolute;
+			bottom: 0;
+			text-align: right;
+		}
+
+		
+
+		/*===================================
+		=============== FOOTER	============= */
+		
+		.copyright {
+			text-align: right;
+		}
+
+	</style>	
+
+</head>
+<body>	
+	<main class="container">
+		<header class="row header">
+			<h1 class="logo col-xs-12 col-md-6">betterUX.design</h1>
+			<ul class="menu col-xs-12 col-md-6">
+				<li><a href="#">search</a></li>
+				<li><a href="#">profile</a></li>
+				<li><a href="#">add</a></li>
+			</ul>
+		</header>
+		<!-- ============= I N S E R T  S L I D E R ============= -->
+		<section class="slider row"> <!-- delete .slider later on and use the plugin -->
+			<div class="imageholder col-lg-12">
+				<div class="case-study-info">
+					<h2>59+</h2>
+					<h3>A 37% improvement in succsesful conversions with this one simple trick</h3>
+					<a href="#" class="btn">View case study</a>
+				</div>
+				<div class="overlay-caption">
+					<h4>Nike 'Strawberry Lace' Pack</h4>
+					<h5>Adam Barlett</h5>
+				</div>
+			</div>
+		</section>
+		<!-- ============= MAIN TILES ============= -->
+		<section class="row">
+			<div class="tile col-xs-12 col-md-6 col-lg-4">
+				<div class="imageholder">
+					<a href="#" class="case-study-url">
+						<div class="hover-info">
+							<h2>3165+</h2>
+							<h3>A 37% improvement in succsesful conversions with this one simple trick</h3>
+							<h4>01/04/2015</h4>
+						</div>
+					</a>
+					<div class="overlay-caption">
+						<h4>Nike 'Strawberry Lace' Pack</h4>
+						<h5><a href="#">Adam Barlett</a></h5>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="tile col-xs-12 col-md-6 col-lg-4">
+				<div class="imageholder">
+					<a href="#" class="case-study-url">
+						<div class="hover-info">
+							<h2>3165+</h2>
+							<h3>A 37% improvement in succsesful conversions with this one simple trick</h3>
+							<h4>01/04/2015</h4>
+						</div>
+					</a>
+					<div class="overlay-caption">
+						<h4>Nike 'Strawberry Lace' Pack</h4>
+						<h5><a href="#">Adam Barlett</a></h5>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="tile col-xs-12 col-md-6 col-lg-4">
+				<div class="imageholder">
+					<a href="#" class="case-study-url">
+						<div class="hover-info">
+							<h2>3165+</h2>
+							<h3>A 37% improvement in succsesful conversions with this one simple trick</h3>
+							<h4>01/04/2015</h4>
+						</div>
+					</a>
+					<div class="overlay-caption">
+						<h4>Nike 'Strawberry Lace' Pack</h4>
+						<h5><a href="#">Adam Barlett</a></h5>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="tile col-xs-12 col-md-6 col-lg-4">
+				<div class="imageholder">
+					<a href="#" class="case-study-url">
+						<div class="hover-info">
+							<h2>3165+</h2>
+							<h3>A 37% improvement in succsesful conversions with this one simple trick</h3>
+							<h4>01/04/2015</h4>
+						</div>
+					</a>
+					<div class="overlay-caption">
+						<h4>Nike 'Strawberry Lace' Pack</h4>
+						<h5><a href="#">Adam Barlett</a></h5>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="tile col-xs-12 col-md-6 col-lg-4">
+				<div class="imageholder">
+					<a href="#" class="case-study-url">
+						<div class="hover-info">
+							<h2>3165+</h2>
+							<h3>A 37% improvement in succsesful conversions with this one simple trick</h3>
+							<h4>01/04/2015</h4>
+						</div>
+					</a>
+					<div class="overlay-caption">
+						<h4>Nike 'Strawberry Lace' Pack</h4>
+						<h5><a href="#">Adam Barlett</a></h5>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="tile col-xs-12 col-md-6 col-lg-4">
+				<div class="imageholder">
+					<a href="#" class="case-study-url">
+						<div class="hover-info">
+							<h2>3165+</h2>
+							<h3>A 37% improvement in succsesful conversions with this one simple trick</h3>
+							<h4>01/04/2015</h4>
+						</div>
+					</a>
+					<div class="overlay-caption">
+						<h4>Nike 'Strawberry Lace' Pack</h4>
+						<h5><a href="#">Adam Barlett</a></h5>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<div class="row">
+			<h3 class="col-md-2">Newsletter</h3>
+			<form action="#" class="col-md-10">
+				<input type="text" placeholder="enter your name" class="col-md-5 col-xs-12">
+				<input type="text" placeholder="enter email address" class="col-md-5 col-xs-12">
+				<input type="submit" value="subscribe" class="col-md-2 col-xs-12">
+			</form>
+		</div>
+			
+		<section class="row">
+			<div class="tile col-xs-12 col-md-6 col-lg-4">
+				<div class="imageholder">
+					<a href="#" class="case-study-url">
+						<div class="hover-info">
+							<h2>3165+</h2>
+							<h3>A 37% improvement in succsesful conversions with this one simple trick</h3>
+							<h4>01/04/2015</h4>
+						</div>
+					</a>
+					<div class="overlay-caption">
+						<h4>Nike 'Strawberry Lace' Pack</h4>
+						<h5><a href="#">Adam Barlett</a></h5>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="tile col-xs-12 col-md-6 col-lg-4">
+				<div class="imageholder">
+					<a href="#" class="case-study-url">
+						<div class="hover-info">
+							<h2>3165+</h2>
+							<h3>A 37% improvement in succsesful conversions with this one simple trick</h3>
+							<h4>01/04/2015</h4>
+						</div>
+					</a>
+					<div class="overlay-caption">
+						<h4>Nike 'Strawberry Lace' Pack</h4>
+						<h5><a href="#">Adam Barlett</a></h5>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="tile col-xs-12 col-md-6 col-lg-4">
+				<div class="imageholder">
+					<a href="#" class="case-study-url">
+						<div class="hover-info">
+							<h2>3165+</h2>
+							<h3>A 37% improvement in succsesful conversions with this one simple trick</h3>
+							<h4>01/04/2015</h4>
+						</div>
+					</a>
+					<div class="overlay-caption">
+						<h4>Nike 'Strawberry Lace' Pack</h4>
+						<h5><a href="#">Adam Barlett</a></h5>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<footer class="row">
+			<ul class="menu col-md-6">
+				<li><a href="#">Resources</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Terms & Conditions</a></li>
+			</ul>
+
+			<p class="copyright col-md-6">Copyright 2015 betterUX.design | A <a href="#">Transmitter Studios</a> Project</p>
+		</footer>
+	</main>
+	
+
+
+
+ <script>
+ 	$(document).ready(function(){
+		$(".imageholder").hover(function() {
+			$(this).find(".hover-info").fadeIn()
+		});
+
+		$(".imageholder").mouseleave(function() {
+			$(this).find(".hover-info").fadeOut();
+		});
+	});
+ </script>
+
+</body>
+</html>
