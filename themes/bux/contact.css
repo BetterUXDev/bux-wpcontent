@@ -1,0 +1,19 @@
+.container-fluid {
+	padding: 0px;
+}
+
+section {
+	padding: 0px;
+}
+
+ul {
+	padding: 0px;
+}
+
+ul li {
+	display: block;
+}
+
+ul li p {
+	margin: 0px;
+}
