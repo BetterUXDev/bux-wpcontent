@@ -1,0 +1,132 @@
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.userPic {
+	margin: 0 auto;
+	margin-top: 90px;
+}
+
+.pic {
+	padding: 8px;
+	border: solid #cccccc 1px;
+	margin-bottom: 26px;
+}
+
+.userPic p,
+h4 {
+	padding: 12px;
+	border: solid #cccccc 1px;
+}
+
+.selections {
+	border-bottom: solid #cccccc 1px;
+	margin-top: 38px;
+	text-align: center;
+}
+
+.selections li {
+	display: inline-block;
+	padding: 32px;
+	border-right: solid #cccccc 1px;
+	font-size: 32px;
+	border-bottom: solid transparent 6px;
+}
+
+.selections li:last-child {
+	border-right: none;
+}
+
+.selections li:active {
+	border-bottom: solid 6px #3f7cac;
+}
+
+.subSelection {
+	border-bottom: solid #cccccc 1px;
+	text-align: center;
+}
+
+.subSelection li {
+	display: inline-block;
+	padding: 25px 120px;
+	border-bottom: solid transparent 6px;
+}
+
+.subSelection li:first-child {
+	border-right: solid #cccccc 1px;
+}
+
+.subSelection li:active {
+	border-bottom: solid 6px #3f7cac;
+}
+
+h3 {
+	clear: both;
+}
+
+.study {
+	margin-top: 50px;
+}
+
+.study li {
+	display: inline-block;
+}
+
+.study img {
+	margin-top: -90px;
+}
+
+.caseInfo li {
+	margin-right: 20px;
+}
+
+.caseInfo {
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.btn {
+	float: right;
+}
+
+.settings {
+	margin-top: 50px;
+}
+
+.settings h5 {
+	margin-bottom: 20px;
+}
+
+.inputs {
+	margin-bottom: 20px;
+}
+
+.switch {
+	float: right;
+}
+
+.notifications {
+	margin-top: 30px;
+}
+
+.notifications h5 {
+	margin-bottom: -5px;
+}
+
+hr {
+	color: #cccccc;
+}
+
+.center {
+	text-align: center;
+}
+
+.saveBtn {
+	margin-top: 50px;
+	margin-bottom: 500px;
+	background: #f7c233;
+	height: 40px;
+	width: 144px;
+}
